@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Submission One</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="movies">Movies</string>
+    <string name="tv_shows">tv shows</string>
+
+    <string name="share_text">Yuk! nonton %s di Bioskop XXI</string>
+    <string name="long_lorem_ipsum">
+        Vivamus porttitor, erat at aliquam mollis, risus ligula suscipit metus, id semper nisi dui lacinia leo. Praesent at feugiat sem. Vivamus consectetur arcu sit amet metus efficitur dapibus. Sed metus ligula, efficitur quis finibus nec, pellentesque nec nulla. Nunc nec magna iaculis turpis vehicula condimentum id lobortis lectus.
+        \n\nQuisque augue diam, convallis nec mollis in, placerat nec elit. Aliquam non erat tristique, consequat tortor ultricies, sodales erat. Aliquam quis enim eu nulla facilisis sollicitudin eu mollis mauris. Donec ornare urna non libero volutpat tempus. Mauris elementum egestas ex, a laoreet urna. Ut a magna mattis, sodales massa a, blandit justo.
+    </string>
+    <string name="explore_now">Explore now!.</string>
+    <string name="item_title">Item Title</string>
+    <string name="actor_name">actor name</string>
+    <string name="tagline">Tagline</string>
+    <string name="release_date">Release</string>
+    <string name="duration">Duration</string>
+    <string name="category">Category</string>
+    <string name="example_text">Maecenas venen</string>
+    <string name="example_year">2021</string>
+    <string name="example_category">Keluarga, Animasi, Komedi, Drama, Musik, Fantasi</string>
+    <string name="actor">Actor</string>
+    <string name="description">Description</string>
+    <string name="user_score">User Score</string>
+    <string name="example_title_detail">Ironma 3: and the winter soldier and falcon superman batman sazam aladin</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="your_favorite_here">Your Favorite Here</string>
+    <string name="action">action</string>
+
+
+</resources>

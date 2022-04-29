@@ -1,0 +1,44 @@
+Unit Test
+1. MoviewViewModeltest
+	> memastikan data movie tidak Null
+	> memastikan jumlah data movie sesuai yang diharapkan
+2. TvShowViewModelTest
+	> memastikan data tv show tidak null
+	>memastikan jumlah data tv show sesuai yang diharapkan
+3.DetailViewModelTest
+	> memual content
+		.memastikan data content tidak null
+		.memastikan data content sesuai yang diharapkan
+		.memastikan jumlah data content list actor sesuai yang diharapkan
+4. Pengujian Repository
+
+Instrumental Test
+1.Menampilakan data list Movie
+	> memastikan rv_movies dalam keadaan tampil
+	> Gulir rv_movies 
+
+2.Menampilakan data detail Movie
+	> memberi tindakan klik pada data pertama di rv_movies
+	> memastikan ImageView untuk imagePoster tampil sesuai dengan yang diharapkan
+	> memastikan TextView untuk title tampil sesuai dengan yang diharapkan
+	> memastikan TextView untuk director tampil sesuai dengan yang diharapkan
+	> memastikan TextView untuk year tampil sesuai dengan yang diharapkan
+	> memastikan TextView untuk duration tampil sesuai dengan yang diharapkan
+	> memastikan TextView untuk category tampil sesuai dengan yang diharapkan
+	> memastikan RecyclerView untuk listActor tampil sesuai dengan yang diharapkan
+	
+3.Menampilakan data list Tv Show
+	> Klik TabLayout dengan teks tv shows
+	> memastikan rv_tv_show dalam keadaan tampil
+	> Gulir rv_tv_show 
+
+4.Menampilakan data detail Movie
+	> memberi tindakan klik pada data pertama di rv_tv_show
+	> memastikan ImageView untuk imagePoster tampil sesuai dengan yang diharapkan
+	> memastikan TextView untuk title tampil sesuai dengan yang diharapkan
+	> memastikan TextView untuk director tampil sesuai dengan yang diharapkan
+	> memastikan TextView untuk year tampil sesuai dengan yang diharapkan
+	> memastikan TextView untuk duration tampil sesuai dengan yang diharapkan
+	> memastikan TextView untuk category tampil sesuai dengan yang diharapkan
+	> memastikan RecyclerView untuk listActor tampil sesuai dengan yang diharapkan
+	

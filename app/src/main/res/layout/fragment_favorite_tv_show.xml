@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#e6e6e6">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:clipToPadding="false"
+        android:scrollbars="none"
+        android:scrollingCache="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:id="@+id/lyt_favorite_tv_show"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/favorite_movies_content"
+                layout="@layout/content_favorite_tv_shows"/>
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <com.eyalbira.loadingdots.LoadingDots
+            android:id="@+id/loading_favorite_tv_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:LoadingDots_dots_space="8dp"
+            app:LoadingDots_dots_color="#FF00B3E5"
+            app:LoadingDots_jump_height="15dp"
+            app:LoadingDots_jump_duration="400"
+            app:LoadingDots_loop_duration="800"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_empty_tv_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/empty_content"
+            layout="@layout/content_empty_data"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
